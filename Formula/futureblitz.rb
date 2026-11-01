@@ -2,7 +2,7 @@
 class Futureblitz < Formula
   desc "A compiled, general-purpose language with BASIC's readability and native speed."
   homepage "https://futureblitz.dev"
-  version "1.1.0"
+  version "1.2.1"
   license "Apache-2.0"
 
   on_macos do
@@ -10,23 +10,23 @@ class Futureblitz < Formula
     depends_on macos: :sequoia
 
     on_arm do
-      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.1.0/futureblitz-1.1.0-macos-arm64.tar.gz"
-      sha256 "843417b3c7ac3aaf293f868a503540e3735074f6ecf97edd70cec2d76902716e"
+      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.2.1/futureblitz-1.2.1-macos-arm64.tar.gz"
+      sha256 "53f2c33f337a79d5a78d7cc8a1ab42d006216c2e79ad333b08ac3ac5cf6ec513"
     end
     on_intel do
-      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.1.0/futureblitz-1.1.0-macos-x64.tar.gz"
-      sha256 "869b0016d3f77aa3470e89979d8c13ef29b78680cba69410a0fa57953b32f734"
+      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.2.1/futureblitz-1.2.1-macos-x64.tar.gz"
+      sha256 "eff33942a470cbe60ea5d1add2fc5dd70674b5df806f91ed3c50234f7656e0bb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.1.0/futureblitz-1.1.0-linux-arm64.tar.gz"
-      sha256 "f2b059cd405a652ef9d581c76c9d8bf6d4b4c58feda91b466ab81169c1667034"
+      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.2.1/futureblitz-1.2.1-linux-arm64.tar.gz"
+      sha256 "c30681e774d8353110e7003fb363a9aebcf12cd217015351d4e4d17f9831e1db"
     end
     on_intel do
-      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.1.0/futureblitz-1.1.0-linux-x64.tar.gz"
-      sha256 "87cfeab1b8e382bb38dcd423f3d186e9aca731551dedad21abb898673d76ccbb"
+      url "https://github.com/hlpdev/FutureBlitz/releases/download/v1.2.1/futureblitz-1.2.1-linux-x64.tar.gz"
+      sha256 "0f3e2723163d39ce04d993ec6be3ae5ec8d63ebcce3612b830fc14d21d3ca5c9"
     end
   end
 
